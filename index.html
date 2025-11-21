@@ -20,7 +20,7 @@
     <h2><strong><em>Formulário Nerd Supremo</em></strong></h2>
     <form action="js/main.js" method="post" enctype="multipart/form-data">
         <label for="nickname">Nickname: </label>
-        <input type="text" name="nickname" id="nickname" value="nickname">
+        <input type="text" name="nickname" id="nickname" value="" placeholder="nome na internet">
         <br>
         <br>
         <label for="idade-real">Idade: </label>
@@ -51,8 +51,28 @@
                 </li>
             </ul>
         </div>
-
-        
+        <br>
+        <br>
+        <label for="fim-do-mundo">Qual é a data do suposto fim do mundo mais famosa da década de 2010s?</label>
+        <input type="date" name="fim-do-mundo" id="fim-do-mundo" value="01/01/0001">
+        <br>
+        <br>
+        <label for="lartena-laranja">Qual é o nome do Único Laterna Laranja do Universo DC? (Pesquisa aí, tu vai curtir essa informação)</label>
+        <input type="text" name="lartena-laranja" id="lartena-laranja" value="" placeholder="começa com 'lar' é ganancioso">                
+        <br>
+        <br>
+        <label for="transformações-sayajins">Qual transformação Sayajin de todo o Dragon Ball é a sua favorita? (Excluindo DB Heroes)</label>
+        <select name="transformações-sayajins" id="transformações-sayajins">
+            <optgroup label="Dragon Ball Clássico">
+                <option value="Macaco">Oozaru</option>
+            </optgroup>
+            <optgroup label="DBZ">
+                <option value="Ssj1">Super Sayajin (Goku, Vegeta, Mirai Trunks, Gohan, Goten, kid Trunks)</option>
+                <option value="Ssj1-grau2-3-4">Super Sayajin Grau 2, 3 e 4(Aperfeiçoado) (Goku, Vegeta, Gohan, Mirai Trunks)</option>
+                <option value="Ssj2">Super Sayajin 2 (Goku, Gohan, Vegeta)</option>
+                <option value="Ssj3">Super Sayajin 3 (Goku, Gotenks)</option>    
+            </optgroup>
+        </select>
     </form>
 </body>
 
